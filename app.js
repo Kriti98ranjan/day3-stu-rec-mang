@@ -1,10 +1,11 @@
 const students = [];
+
+console.log("Student Record Manager - Student Portal");
 //add student 
 function addStudent(name) {
   students.push(name);
 }
-console.log("MASTER BRANCH CHANGE");
-console.log("FEATURE BRANCH CHANGE");
+
 //display students
 function displayStudents() {
   console.log(students);
