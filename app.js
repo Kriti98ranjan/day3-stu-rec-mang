@@ -18,4 +18,9 @@ function removeStudent(name) {
     students.splice(index, 1);
   }
 }
+
+//search student
+function searchStudent(name) {
+  return students.includes(name);
+}
 console.log("Student Record Manager Started");
