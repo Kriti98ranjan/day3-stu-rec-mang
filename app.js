@@ -23,4 +23,9 @@ function removeStudent(name) {
 function searchStudent(name) {
   return students.includes(name);
 }
+
+//count students
+function totalStudents() {
+  return students.length;
+}
 console.log("Student Record Manager Started");
