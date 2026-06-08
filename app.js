@@ -1,10 +1,9 @@
 const students = [];
-console.log("Student Record Manager - Admin Panel");
 //add student 
 function addStudent(name) {
   students.push(name);
 }
-
+console.log("FEATURE BRANCH CHANGE");
 //display students
 function displayStudents() {
   console.log(students);
