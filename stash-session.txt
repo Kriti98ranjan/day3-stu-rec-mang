@@ -1,0 +1,40 @@
+stats workflow:-
+
+step 1:
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git stash
+Saved working directory and index state WIP on master: 2df32cf Revert "Refactor addStudent logic"
+
+step 2:
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+nothing to commit, working tree clean
+
+step 3: 
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git pull origin master 
+From https://github.com/Kriti98ranjan/day3-stu-rec-mang
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+step 4:
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git stash apply
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.js
+no changes added to commit (use "git add" and/or "git commit -a")
+
+step 5:
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.js
+no changes added to commit (use "git add" and/or "git commit -a")
+
