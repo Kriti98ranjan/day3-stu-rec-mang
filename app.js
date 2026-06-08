@@ -1,5 +1,6 @@
 const students = [];
 
+console.log("Student Record Manager - Student Portal");
 //add student 
 function addStudent(name) {
   students.push(name);
