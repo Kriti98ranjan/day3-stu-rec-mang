@@ -3,11 +3,8 @@ const students = [];
 function addStudent(name) {
   students.push(name);
 }
-<<<<<<< HEAD
 console.log("MASTER BRANCH CHANGE");
-=======
 console.log("FEATURE BRANCH CHANGE");
->>>>>>> feature-branch
 //display students
 function displayStudents() {
   console.log(students);
