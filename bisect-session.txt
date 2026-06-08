@@ -1,0 +1,25 @@
+terminal logs how to find the bug using bisect:-
+
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git bisect start
+Previous HEAD position was 615a95c Add searchStudent function
+Switched to branch 'master'
+
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git bisect bad
+status: waiting for good commit(s), bad commit known
+
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git bisect good c57d479               
+Bisecting: 2 revisions left to test after this (roughly 1 step)
+[e04e070d3aa17e5a43e6ef13e45154414c1bc0d1] Add displayStudents function
+
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> node app.js
+output:
+[ '' ]
+Student Record Manager Started
+
+PS C:\Users\kriti\Desktop\day3-stu-rec-mang> git bisect bad
+45b4a59a655258ae68fe3c40ff5e62e46910ae11 is the first bad commit
+commit 45b4a59a655258ae68fe3c40ff5e62e46910ae11 (HEAD)
+Author: Kriti98ranjan <kritiranjan196@gmail.com>
+Date:   Mon Jun 8 12:35:16 2026 +0530
+Message: Refactor addStudent logic
+
