@@ -2,7 +2,7 @@ const students = [];
 
 //add student 
 function addStudent(name) {
-  students.push(""); // BUG
+  students.push(name);
 }
 
 //display students
