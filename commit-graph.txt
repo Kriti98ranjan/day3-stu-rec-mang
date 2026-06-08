@@ -1,0 +1,13 @@
+commit graph--
+
+* f736710 (HEAD -> master, origin/master) fix: resolve merge conflict keeping both changes in app.js
+* 4bbabc7 Update title for student portal
+* de78e7f resolve merge conflict
+* 0c0cd97 resolve merge conflict
+* 3d22c34 (feature-branch) feature change
+* 8b87c1c master change
+* 2df32cf Revert "Refactor addStudent logic"
+* 9c8b47b Add totalStudents function
+* 615a95c Add searchStudent function
+* 669469e Add removeStudent function
+* e04e070 Add displayStudents function
